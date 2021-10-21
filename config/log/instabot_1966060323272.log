@@ -1,0 +1,7 @@
+2021-09-09 14:10:34,049 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-09-09 14:10:34,071 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\HepahhangRayaneh\AppData\Local\Programs\Python\Python37\lib\site-packages\instabot\bot\bot.py
+2021-09-09 14:10:34,072 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2021-09-09 14:10:34,752 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/accounts/get_prefill_candidates/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1091)')))
+2021-09-09 14:10:34,812 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/qe/sync/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1091)')))
+2021-09-09 14:10:34,871 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/launcher/sync/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1091)')))
+2021-09-09 14:10:34,915 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/accounts/contact_point_prefill/ (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1091)')))
