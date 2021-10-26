@@ -12,13 +12,10 @@ urlpatterns = [
     url('cars' , views.cars),
     path('driver/<int:id>/car/store/' , views.store_car),
     
-
     # drivers urls
     path('drivers' , views.drivers),
     path('drivers/<int:id>' , views.driver),
     path('driver/store/' , views.store_driver),
-
-
 
     path('allowed-traffic/' , views.allowed_traffic),
     path('near-station/' , views.near_tollstation),

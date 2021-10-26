@@ -15,12 +15,6 @@ class Driver(models.Model):
 # ماشین ها
 class Car(models.Model):
 
-    @classmethod
-    def check(cls, d):
-        cars = models.Node.objects.get(driver = d)
-        return book
-
-
     CTYPE = (
     ('s', 'small'),
     ('b', 'big'),

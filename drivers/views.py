@@ -152,13 +152,13 @@ def driver(request):
 @csrf_exempt
 def allowed_traffic(request):
 
-    node = models.Node.objects.get(id = 10)
+    # node = models.Node.objects.get(id = 10)
 
-    point = Point(node.location[0], node.location[1], srid=4326)
+    # point = Point(node.location[0], node.location[1], srid=4326)
 
-    node2 = models.Node.objects.get(id = 12)
+    # node2 = models.Node.objects.get(id = 12)
 
-    point2 = Point(node2.location[0], node2.location[1], srid=4326)
+    # point2 = Point(node2.location[0], node2.location[1], srid=4326)
 
     roads = models.Road.objects.filter(width__lte = 20)
 
